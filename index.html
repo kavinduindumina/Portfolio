@@ -41,8 +41,8 @@
             <a href="#"><i class='bx bxl-facebook' ></i></a>
             <a href="https://github.com/kavinduindumina"><i class='bx bxl-github' ></i></i></a>
             <a href="https://www.linkedin.com/in/kavindu-indumina-670aa8235/"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-instagram' ></i></a>
-            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+            <a href="https://www.instagram.com/kavindu_indumina?igsh=MXJlYnpueTR1c3N0NQ=="><i class='bx bxl-instagram' ></i></a>
+            <a href="https://wa.me/94767668187"><i class='bx bxl-whatsapp' ></i></a>
         </div>
         <a href="resourses/Kavindu-Indumina.pdf" class="btn">Download CV</a>
 
@@ -126,28 +126,28 @@
     <div class="portfolio-container">
 
         <div class="portfolio-box">
-            <img src="images/portfolio1.jpg" alt="">
+            <img src="images/chatbot.png" alt="">
             <div class="portfolio-layer">
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, repudiandae!</p>
-                <a href="#"><i class='bx bx-link-external' ></i></a>
+                <h4>Chat Bot</h4>
+                <p>This project is a simple web-based <b>Python</b> chatbot application built using Flask, TensorFlow, and Material Design Lite.</p>
+                <a href="https://github.com/kavinduindumina/Channel-your-Doctor"><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
 
         <div class="portfolio-box">
-            <img src="images/portfolio2.jpg" alt="">
+            <img src="images/sms.jpg" alt="">
             <div class="portfolio-layer">
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, repudiandae!</p>
-                <a href="#"><i class='bx bx-link-external' ></i></a>
+                <h4 style="color: #201C14;">Student Management System</h4>
+                <p style="color: #201C14;">This project is a Student Management CRUD System built using <b>PHP Laravel</b> Framework. </p>
+                <a href="https://github.com/kavinduindumina/Student-managemnt-CRUD"><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
         <div class="portfolio-box">
             <img src="images/portfolio3.jpg" alt="">
             <div class="portfolio-layer">
-                <h4>Web Design</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, repudiandae!</p>
-                <a href="#"><i class='bx bx-link-external' ></i></a>
+                <h4>Agro Web Design</h4>
+                <p>Agrofarmflow is a Agriculture Website built using html, bootstrap and php</p>
+                <a href="https://github.com/kavinduindumina/agrofarmflow/tree/main/DOAweb"><i class='bx bx-link-external' ></i></a>
             </div>
         </div>
 
@@ -159,19 +159,20 @@
 <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
-    <form action="#">
+    <form action="send_email.php" method="POST">
         <div class="input-box">
-            <input type="text" placeholder="Full Name">
-            <input type="email" placeholder="Email">
+            <input type="text" name="full_name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
         </div>
         <div class="input-box">
-            <input type="number" placeholder="Mobile Number">
-            <input type="text" placeholder="Email Subject">
+            <input type="number" name="mobile_number" placeholder="Mobile Number" required>
+            <input type="text" name="email_subject" placeholder="Email Subject" required>
         </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
         <input type="submit" value="Send Message" class="btn">
     </form>
 </section>
+
 
 
 <!--footer design-->
